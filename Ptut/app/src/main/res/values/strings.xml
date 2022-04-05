@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Labdev\'s Home Trainer</string>
+    <string name="logo">Logo</string>
+    <string name="Titre">Labdev\'s home trainer</string>
+    <string name="creation_page_title">CREATION D\'UNE SEANCE</string>
+    <string name="creation_page_name_seance">Nom de la séance</string>
+    <string name="creation_page_name_seance_input">Saisir le nom de la séance</string>
+    <string name="creation_page_list_exercises_section">Liste des exercices</string>
+    <string name="creation_page_exercise_name">Nom de l\'exercice</string>
+    <string name="creation_page_name_exercise_input">Entrer le nom de l\'exercice</string>
+    <string name="creation_page_exercise_time">Temps de l\'exercice</string>
+    <string name="creation_page_exercise_repetition">Nombre de repetition de l\'exercice</string>
+    <string name="creation_page_power_exercise">Puissance de l\'exercice</string>
+    <string name="creation_page_save_button">Enregistrer</string>
+    <string name="creation_page_back_button">Retour</string>
+    <string name="titre_seance">titre séance</string>
+    <string name="ajouter">Add Icon</string>
+    <string name="choix">choix</string>
+</resources>

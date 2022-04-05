@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consultation_seances">
+
+    <LinearLayout
+        android:id="@id/titre"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/ListeExercices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019"
+        tools:ignore="HardcodedText,MissingConstraints">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="top"
+            android:layout_marginStart="3dp"
+            android:text="Retour"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+        <TextView
+            android:id="@+id/titre"
+            android:layout_width="750px"
+            android:layout_height="150px"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="20px"
+            android:text="Titre de la séance"
+            android:textColor="@color/white"
+            android:textSize="5mm"
+            tools:ignore="HardcodedText,MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/ListeExercices"
+        android:layout_width="1095px"
+        android:layout_height="1200px"
+        android:layout_marginBottom="72dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/boutons"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_goneMarginTop="200px"
+        tools:ignore="HardcodedText,MissingConstraints">
+
+        <TextView
+            android:id="@+id/informations"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="Information sur la séance (liste des exercices)"
+            android:textColor="@color/white"
+            android:textSize="2mm"
+            tools:ignore="HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="581dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/boutons"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="150px"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="30px"
+            android:text="Modifier"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+        <Button
+            android:layout_width="250px"
+            android:layout_height="150px"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="510px"
+            android:text="Lancer"
+            tools:ignore="HardcodedText,MissingConstraints" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

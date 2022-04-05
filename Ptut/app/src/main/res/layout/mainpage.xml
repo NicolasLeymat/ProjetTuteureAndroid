@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainPage">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="127dp"
+        android:layout_height="104dp"
+        android:contentDescription="Logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/listeSeance"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:backgroundTintMode="add"
+        android:fallbackLineSpacing="false"
+        android:hapticFeedbackEnabled="false"
+        android:text="Liste"
+        android:textColor="#000000"
+        app:background="@color/darkGray"
+        app:backgroundTint="@color/darkGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Suivi"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Suivi"
+        app:layout_constraintTop_toBottomOf="@+id/Suivi"
+        app:layout_constraintVertical_bias="0.092"
+        tools:ignore="HardcodedText,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/Suivi"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:backgroundTintMode="add"
+        android:fallbackLineSpacing="false"
+        android:hapticFeedbackEnabled="false"
+        android:text="Suivi"
+        android:textColor="#000000"
+        app:background="@color/darkGray"
+        app:backgroundTint="@color/darkGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284"
+        tools:ignore="HardcodedText,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/creerSeance"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:background="@color/darkGray"
+        app:backgroundTint="@color/darkGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/historiqueSeance"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:fallbackLineSpacing="false"
+        android:hapticFeedbackEnabled="false"
+        android:text="Historique"
+        android:textColor="#000000"
+        app:background="@color/darkGray"
+        app:backgroundTint="@color/darkGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/listeSeance"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/listeSeance"
+        app:layout_constraintTop_toBottomOf="@+id/listeSeance"
+        app:layout_constraintVertical_bias="0.116"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Quitter"
+        android:textColor="#000000"
+        app:background="@color/darkGray"
+        app:backgroundTint="@color/darkGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974"
+        tools:ignore="HardcodedText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
